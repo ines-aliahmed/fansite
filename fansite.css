@@ -1,0 +1,288 @@
+body{
+    background-image:url("ari.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.header{
+    background-color: transparent;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'lucida console';
+    transition: 3s;
+    color: whitesmoke;
+    text-shadow: 3px 3px 3px grey;
+    
+}
+
+h1{
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: unset;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    text-shadow: 4px 4px 4px gray;
+}
+
+
+.f{
+    display: flex;
+    justify-content: center;
+    flex-direction: unset;
+    padding-top:90px;
+
+}
+
+img{
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px whitesmoke;
+}
+
+
+
+ul{
+ color:purple;
+ text-align: center;
+ font-size: 20px;
+}
+
+ul:hover{
+    color:pink;
+}
+
+.lien{
+    display:flex;
+    justify-content: right;
+}
+
+.lien div img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.lien div:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.f div img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.f div:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 60Px;
+    color: pink;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+
+}
+  
+
+.photo{
+    display: flex;
+    justify-content: center;
+    flex-direction: unset;
+    padding-top:96px;
+
+}
+
+.photo2{
+    display: flex;
+    justify-content: center;
+    flex-direction: unset;
+    padding-top:96px;
+
+}
+
+.photo3{
+    display: flex;
+    justify-content: center;
+    flex-direction: unset;
+    padding-top:96px;
+
+}
+
+.vi{
+    display: flex;
+    justify-content: center
+}
+
+.vid{
+    display: flex;
+    justify-content: center;
+}
+
+.event{
+    color: white;
+    font-size: 20px;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-style: oblique;
+    color:whitesmoke;
+    text-shadow: 4px 4px 4px grey;
+    display: flex;
+    justify-content: center;
+}
+
+.date{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    border: solid white;
+}
+
+article{
+       font-family: cursive;
+       font-size: 20px;
+       font-style: oblique;
+       padding-top: 30px;  
+       color:#760707;
+}
+
+p{
+    color:black;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}
+
+p:hover{
+    background-color: white;
+    
+}
+
+.giv{
+    display: flex;
+    justify-content: center;
+}
+
+.ag{
+    display: flex;
+    justify-content: center
+    ;
+}
+
+.rel{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.film{
+    display: flex;
+    justify-content: center;
+}
+tr{
+    color:honeydew;
+    font-size: 20px;
+}
+
+td{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    text-shadow: 4px 4px 4px gray;
+}
+
+th{
+    color: hotpink;
+    font-size: 25px;
+}
+
+Label{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form{
+	padding: 1%;
+	margin:2%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px black;
+	background-color: #f5dedc63;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+#contact-titre{
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+.contact-label{
+	display: block;
+	float: left;
+	width: 30%;
+	font-size: 100%;
+	margin:1%;
+	text-align: right;
+}
+.contact-inp{
+	font-size: 100%;
+	margin: 1%;
+	border-radius: 30px;
+	border: none;
+}
+#contact-inp{
+	display: block;
+	margin: auto;
+	border-radius: 10px;
+    border: none;
+    background-color: #ff000054;
+    color: white;
+    width: 30%;
+    font-size: 130%;
+    padding: 1%;
+    margin-top: 2%;
+    transition: all 0.8s ease-out;
+}
+
+#contact-inp:hover{
+	
+    background-color: #0003ff54 ;
+}
+
+}
+#message{
+	border-radius: 15px;
+	border: none;
+    padding-top: 1%;
+}
+
+.menu{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: pink;
+    display: flex;
+    justify-content: center;
+    flex-basis: 10px;
+    border: solid white;
+}
+
+
+footer{
+    position: absolute; bottom: 0;
+    padding-top: 80px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+}
